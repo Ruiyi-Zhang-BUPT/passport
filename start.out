@@ -1,0 +1,5 @@
+[32minfo[39m: server_start {"serverPort":"10985","authUsers":["felix"],"service":"fake-passport-bupt","timestamp":"2022-03-15 10:34:31.289"}
+[32minfo[39m: load_config {"content":{"isRandomIdentityEnabled":false,"isAnonymousAccessEnabled":true,"alert":"","whitelist":[],"isWhitelistEnabled":false},"service":"fake-passport-bupt","timestamp":"2022-03-15 10:34:31.304"}
+[32minfo[39m: new_request {"ip":"::1","username":"你的名字","school":"你的学院","type":"出","userId":"你的学号","endpoint":"/","service":"fake-passport-bupt","timestamp":"2022-03-15 10:34:32.966"}
+[32minfo[39m: new_request {"ip":"::1","username":"张睿毅","school":"信息与通信工程学院","type":"入","userId":"2021213102","endpoint":"/","service":"fake-passport-bupt","timestamp":"2022-03-15 10:35:02.207"}
+[32minfo[39m: new_request {"ip":"::1","username":"张睿毅","school":"信息与通信工程学院","type":"入","userId":"2021213102","endpoint":"/","service":"fake-passport-bupt","timestamp":"2022-03-15 10:35:18.800"}
