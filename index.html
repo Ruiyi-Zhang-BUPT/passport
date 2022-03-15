@@ -323,7 +323,7 @@
                     class="doneplugin-value doneplugin-value-userview"
                     style="font-size: 14px; font-family: 微软雅黑; font-weight: normal; font-style: normal; color: rgb(96, 98, 102); text-decoration: none; text-align: center; line-height: 15px; letter-spacing: 0px; --darkreader-inline-color:rgb(96, 98, 102);"
                     data-darkreader-inline-color="">
-                    __name__
+                    张睿毅
                   </span></div>
               </div>
               <!---->
@@ -344,7 +344,7 @@
                     class="doneplugin-value doneplugin-value-userview"
                     style="font-size: 14px; font-family: 微软雅黑; font-weight: normal; font-style: normal; color: rgb(96, 98, 102); text-decoration: none; text-align: center; line-height: 15px; letter-spacing: 0px; --darkreader-inline-color:rgb(96, 98, 102);"
                     data-darkreader-inline-color="">
-                    __school__
+                    信息与通信工程学院
                   </span></div>
               </div>
               <!---->
@@ -398,7 +398,7 @@
                   style="font-size: 18px; font-family: 微软雅黑; font-weight: bold; font-style: normal; color: #008000; text-decoration: none; text-align: center; line-height: 20px; letter-spacing: 0px; --darkreader-inline-color:#008000;"
                   data-darkreader-inline-color=""><span
                     style="font-size: 18px; font-family: 微软雅黑; font-weight: bold; font-style: normal; color: #008000; text-decoration: none; text-align: center; line-height: 20px; letter-spacing: 0px; --darkreader-inline-color:#008000;"
-                    data-darkreader-inline-color="">允许__type__校</span></div>
+                    data-darkreader-inline-color="">允许入校</span></div>
               </div>
               <!---->
             </div>
@@ -417,7 +417,7 @@
                     class="doneplugin-value doneplugin-value-userview"
                     style="font-size: 14px; font-family: 微软雅黑; font-weight: normal; font-style: normal; color: rgb(96, 98, 102); text-decoration: none; text-align: center; line-height: 15px; letter-spacing: 0px; --darkreader-inline-color:rgb(96, 98, 102);"
                     data-darkreader-inline-color="">
-                    __id__
+                    2021213102
                   </span></div>
               </div>
               <!---->
@@ -438,7 +438,24 @@
                   style="font-size: 14px; font-family: 微软雅黑; font-weight: normal; font-style: normal; color: rgb(96, 98, 102); text-decoration: none; text-align: center; line-height: 20px; letter-spacing: 0px; --darkreader-inline-color:rgb(96, 98, 102);"
                   data-darkreader-inline-color=""><span
                     style="font-size: 14px; font-family: 微软雅黑; font-weight: normal; font-style: normal; color: rgb(96, 98, 102); text-decoration: none; text-align: center; line-height: 20px; letter-spacing: 0px; --darkreader-inline-color:rgb(96, 98, 102);"
-                    data-darkreader-inline-color="">__time__</span></div>
+                    data-darkreader-inline-color="">
+                    <div id="div1"></div>
+                    <script>
+                      function time() {
+                        var date = new Date();
+                        var year = date.getFullYear();
+                        var month = date.getMonth();
+                        var day = date.getDate();
+                        var hour = date.getHours();
+                        var minutes = date.getMinutes();
+                        var seconds = date.getSeconds();
+                        var str = year + "-" + month + "-" + day +  " " + hour + ":" + minutes + ":" + seconds;
+                        var div1 = document.getElementById("div1");
+                        div1.innerHTML = str;
+                    }
+                      setInterval(time,1000);
+                    </script>
+                  </span></div>
               </div>
               <!---->
             </div>
